@@ -6,7 +6,7 @@ export const COLORS = {
   bgDark: '#0C0906',
   bgWood: '#3B2210',
   bgLight: '#E8E0D0',
-  textMuted: '#9E8E7A',
+  textMuted: '#D4C5B0',
   textLight: '#F0E8D8',
   textDark: '#1A1208',
 } as const;
