@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
             久臨
           </p>
           <p
-            className="text-[10px] tracking-[0.3em] mt-1 opacity-60"
+            className="text-sm tracking-[0.3em] mt-1 opacity-60"
             style={{ fontFamily: FONTS.mono, color: COLORS.primary }}
           >
             KYURIN — OCHANOMIZU
