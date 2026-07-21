@@ -111,16 +111,6 @@ export const MenuSection: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#180E07] via-transparent to-transparent" />
                   <span
-                    className="absolute top-4 left-4 px-2.5 py-1 text-[9px] font-bold tracking-[0.25em]"
-                    style={{
-                      fontFamily: FONTS.mono,
-                      backgroundColor: COLORS.primary,
-                      color: COLORS.bgDark,
-                    }}
-                  >
-                    {item.tag}
-                  </span>
-                  <span
                     className="absolute bottom-2 right-4 text-4xl font-bold leading-none text-amber-600/15"
                     style={{ fontFamily: FONTS.mono }}
                   >
