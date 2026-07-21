@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
             className="text-xs tracking-[0.4em] uppercase font-semibold"
             style={{ fontFamily: FONTS.mono, color: COLORS.primary }}
           >
-            AUTHENTIC JAPANESE RAMEN
+            AUTHENTIC JAPANESE TSUKEMEN
           </span>
         </div>
 
