@@ -121,7 +121,7 @@ export const MenuSection: React.FC = () => {
                 <div className="p-6 lg:p-7">
                   <div className="flex items-center justify-between mb-3">
                     <p
-                      className="text-base tracking-[0.3em] opacity-60"
+                      className="text-lg tracking-[0.3em] opacity-60"
                       style={{ fontFamily: FONTS.mono, color: COLORS.primary }}
                     >
                       {item.reading}
