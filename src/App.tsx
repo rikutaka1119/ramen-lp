@@ -23,7 +23,6 @@ export default function App() {
         <FeaturesSection />
         <AccessSection />
       </main>
-      <StickyCTA />
       <Footer />
     </div>
   );
