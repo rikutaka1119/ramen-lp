@@ -26,7 +26,7 @@ export const FeaturesSection: React.FC = () => {
               <br />
               <span style={{ color: COLORS.primary }}>特長</span>
             </h2>
-            <p className="text-sm leading-loose mb-12 font-light" style={{ color: COLORS.textMuted }}>
+            <p className="text-base leading-loose mb-12 font-light" style={{ color: COLORS.textMuted }}>
               久臨 御茶ノ水店だけの、三つの挑戦。
             </p>
 
@@ -48,12 +48,12 @@ export const FeaturesSection: React.FC = () => {
                   </span>
                   <div>
                     <h3
-                      className="text-lg font-bold mb-3 tracking-wide"
+                      className="text-xl font-bold mb-3 tracking-wide"
                       style={{ fontFamily: FONTS.serif }}
                     >
                       {step.title}
                     </h3>
-                    <p className="text-sm leading-relaxed font-light" style={{ color: COLORS.textMuted }}>
+                    <p className="text-base leading-relaxed font-light" style={{ color: COLORS.textMuted }}>
                       {step.body}
                     </p>
                   </div>

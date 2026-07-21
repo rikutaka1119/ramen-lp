@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black">
         <img
           src={IMAGES.hero}
-          alt="麺屋輝の看板ラーメン"
+          alt="久臨の看板ラーメン"
           className="w-full h-full object-cover opacity-50 object-[center_40%] scale-105 transition-transform duration-1000"
         />
       </div>
@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
       {/* サイドテキスト */}
       <div className="absolute top-1/2 right-8 -translate-y-1/2 hidden lg:flex flex-col items-center gap-3 [writing-mode:vertical-rl]">
         <span
-          className="text-xs tracking-[0.4em] uppercase opacity-70"
+          className="text-base tracking-[0.4em] uppercase opacity-70"
           style={{ fontFamily: FONTS.mono, color: COLORS.primary }}
         >
           御茶ノ水 / TOKYO
@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
         </h1>
         
         <p
-          className="text-base lg:text-lg mb-10 max-w-lg leading-relaxed font-light drop-shadow"
+          className="text-lg lg:text-xl mb-10 max-w-lg leading-relaxed font-light drop-shadow"
           style={{ color: COLORS.textLight, opacity: 0.9 }}
         >
           つけめんの新境地。動物系を極限まで強化したスープと、
@@ -64,14 +64,14 @@ export const Hero: React.FC = () => {
         <div className="flex flex-wrap items-center gap-4">
           <a
             href="#メニュー"
-            className="px-8 py-3.5 text-xs font-bold tracking-[0.2em] text-black bg-amber-600 rounded-sm transition-all duration-300 hover:bg-amber-500 hover:scale-105"
+            className="px-8 py-3.5 text-sm font-bold tracking-[0.2em] text-black bg-amber-600 rounded-sm transition-all duration-300 hover:bg-amber-500 hover:scale-105"
             style={{ fontFamily: FONTS.sans }}
           >
             メニューを見る
           </a>
           <a
             href="#店舗情報"
-            className="flex items-center gap-2 px-8 py-3.5 text-xs font-bold tracking-[0.2em] text-amber-500 border border-amber-600/50 rounded-sm transition-all duration-300 hover:bg-amber-600/10 hover:border-amber-600"
+            className="flex items-center gap-2 px-8 py-3.5 text-sm font-bold tracking-[0.2em] text-amber-500 border border-amber-600/50 rounded-sm transition-all duration-300 hover:bg-amber-600/10 hover:border-amber-600"
             style={{ fontFamily: FONTS.sans }}
           >
             <MapPin size={14} />
@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60">
         <span
-          className="text-[10px] tracking-[0.3em]"
+          className="text-xs tracking-[0.3em]"
           style={{ fontFamily: FONTS.mono, color: COLORS.textMuted }}
         >
           SCROLL

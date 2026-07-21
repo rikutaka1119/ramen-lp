@@ -34,23 +34,13 @@ export const Header: React.FC = () => {
               <a
                 key={label}
                 href={href}
-                className="text-xs tracking-[0.15em] transition-colors duration-200 hover:text-amber-500"
+                className="text-base tracking-[0.15em] transition-colors duration-200 hover:text-amber-500"
                 style={{ fontFamily: FONTS.sans, color: COLORS.textMuted }}
               >
                 {label}
               </a>
             ))}
           </nav>
-
-          {/* ヘッダーCTAボタン */}
-          <a
-            href="#店舗情報"
-            className="flex items-center gap-2 px-5 py-2.5 text-xs font-bold tracking-widest text-black bg-amber-600 rounded-sm transition-all duration-300 hover:bg-amber-500 hover:shadow-[0_0_15px_rgba(200,146,42,0.4)]"
-            style={{ fontFamily: FONTS.sans }}
-          >
-            <Calendar size={14} />
-            WEB予約 / アクセス
-          </a>
         </div>
 
         <button
@@ -82,14 +72,6 @@ export const Header: React.FC = () => {
               {label}
             </a>
           ))}
-          <a
-            href="#店舗情報"
-            className="flex items-center justify-center gap-2 w-full py-3 text-xs font-bold tracking-widest text-black bg-amber-600 rounded-sm"
-            onClick={() => setMenuOpen(false)}
-          >
-            <Calendar size={14} />
-            WEB予約 / 店舗情報
-          </a>
         </div>
       </div>
     </header>

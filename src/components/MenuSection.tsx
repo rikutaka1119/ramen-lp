@@ -177,10 +177,10 @@ export const MenuSection: React.FC = () => {
 
         <div className="mt-10 text-center">
           <p
-            className="text-xs tracking-widest opacity-60"
+            className="text-base tracking-widest opacity-60"
             style={{ fontFamily: FONTS.mono, color: COLORS.textMuted }}
           >
-            ＊ 全メニューにライス・漬物付き｜アレルギー対応はお気軽にご相談ください
+            ＊ 麺の量は「小：200g」「中：300g」「大：400g」
           </p>
         </div>
       </div>

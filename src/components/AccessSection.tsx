@@ -29,7 +29,7 @@ export const AccessSection: React.FC = () => {
             >
               店舗情報
             </h2>
-            <p className="text-sm mb-12 text-stone-600 font-medium">
+            <p className="text-base mb-12 text-stone-600 font-medium">
               久臨 エキュートエディション御茶ノ水店
             </p>
 
@@ -45,7 +45,7 @@ export const AccessSection: React.FC = () => {
                   </p>
                   <p className="font-medium" style={{ color: COLORS.textDark }}>東京都千代田区神田駿河台2丁目</p>
                   <p
-                    className="text-xs mt-1 text-stone-600"
+                    className="text-sm mt-1 text-stone-600"
                     style={{ fontFamily: FONTS.mono }}
                   >
                     JR御茶ノ水駅改札内「エキュートエディション御茶ノ水」
@@ -65,9 +65,9 @@ export const AccessSection: React.FC = () => {
                   <div className="space-y-2">
                     {BUSINESS_HOURS.map(({ day, time }) => (
                       <div key={day} className="flex gap-6">
-                        <span className="text-sm w-16 shrink-0 text-stone-600 font-medium">{day}</span>
+                        <span className="text-base w-16 shrink-0 text-stone-600 font-medium">{day}</span>
                         <span
-                          className="text-sm font-semibold"
+                          className="text-base font-semibold"
                           style={{ color: COLORS.textDark, fontFamily: FONTS.mono }}
                         >
                           {time}

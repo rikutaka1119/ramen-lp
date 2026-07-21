@@ -27,7 +27,7 @@ export const Philosophy: React.FC = () => {
               <span style={{ color: COLORS.primary }}>ここにある</span>
             </h2>
 
-            <div className="space-y-6 leading-[2.1] font-light" style={{ color: COLORS.textMuted }}>
+            <div className="space-y-6 leading-[2.1] font-light text-base" style={{ color: COLORS.textMuted }}>
               <p>
                 本店舗は、つけめん界を牽引し続ける六厘舎創業者・三田遼斉が、さらなる旨さの高みを目指して取り組んだ「新たな挑戦」の結晶です。
               </p>
