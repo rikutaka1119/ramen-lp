@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Calendar } from 'lucide-react';
-import logoImg from '../assets/google.png';
+import logoImg from '../assets/logo.png';
 import { NAV_ITEMS } from '../data/ramenData';
 import { COLORS, FONTS } from '../constants/theme';
 
