@@ -19,19 +19,36 @@ export const FONTS = {
 } as const;
 
 export const WOOD_BG_STYLE: React.CSSProperties = {
-  backgroundColor: COLORS.bgWood,
+  backgroundColor: '#2B1608', // より深みのある濃い木目ベース色
   backgroundImage: `
+    repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      transparent 12px,
+      rgba(200, 130, 60, 0.05) 12px,
+      rgba(200, 130, 60, 0.05) 14px,
+      transparent 14px,
+      transparent 28px,
+      rgba(0, 0, 0, 0.15) 28px,
+      rgba(0, 0, 0, 0.15) 31px
+    ),
     repeating-linear-gradient(
       88deg,
       transparent 0px,
-      transparent 18px,
-      rgba(255,210,130,0.045) 18px,
-      rgba(255,210,130,0.045) 19px,
-      transparent 19px,
-      transparent 34px,
-      rgba(0,0,0,0.07) 34px,
-      rgba(0,0,0,0.07) 36px
+      rgba(255, 180, 90, 0.04) 4px,
+      transparent 8px,
+      transparent 45px,
+      rgba(0, 0, 0, 0.08) 46px,
+      transparent 50px
     ),
-    linear-gradient(180deg, #3B2210 0%, #44280E 40%, #38200C 100%)
+    repeating-linear-gradient(
+      92deg,
+      transparent 0px,
+      transparent 6px,
+      rgba(160, 90, 30, 0.06) 6px,
+      rgba(160, 90, 30, 0.06) 8px,
+      transparent 8px
+    ),
+    linear-gradient(180deg, #241105 0%, #381E0B 50%, #200E04 100%)
   `,
 };
