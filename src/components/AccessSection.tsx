@@ -88,11 +88,11 @@ export const AccessSection: React.FC = () => {
                     PHONE
                   </p>
                   <a
-                    href="tel:0000000000"
+                    href="tel:0362750667"
                     className="text-base font-bold transition-colors hover:text-amber-800"
                     style={{ color: COLORS.textDark, fontFamily: FONTS.mono }}
                   >
-                    000-0000-0000
+                    03-6275-0667
                   </a>
                 </div>
               </div>
